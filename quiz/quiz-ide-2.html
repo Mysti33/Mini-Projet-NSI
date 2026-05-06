@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='fr'>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../style/style.css" rel="stylesheet">
+		<title>Espace Code - Quiz IDE avancé</title>
+	</head>
+	<body class="page-quiz">
+		<header>
+			<nav class="navbar">
+				<div class="navbar-brand">
+					<a href="../index.html" class="logo">
+						<span class="logo-icon">&lt;</span>Code<span class="logo-icon">/&gt;</span>
+					</a>
+				</div>
+				<ul class="nav-links">
+					<li><a href="../index.html">Accueil</a></li>
+					<li><a href="../langages.html">Langages</a></li>
+					<li><a href="../outils.html">Outils</a></li>
+					<li><a href="../quiz.html">Quiz</a></li>
+					<li><a href="../Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="hero">
+			<h2>Quiz - IDE pour pros</h2>
+			<p>Répondez aux questions pour trouver l’IDE qui vous rendra plus productif.</p>
+		</section>
+		<main class="content-wrapper">
+			<form class="quiz-form" action="#" method="get">
+				<fieldset>
+					<legend>Quel type de projet réalisez-vous le plus souvent ?</legend>
+					<div class="form-control">
+						<input type="radio" id="web-app" name="project" value="Web App">
+						<label for="web-app">Applications web</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="mobile-app" name="project" value="Mobile App">
+						<label for="mobile-app">Applications mobiles</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="desktop-app" name="project" value="Desktop App">
+						<label for="desktop-app">Applications de bureau</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Avez-vous besoin de collaboration en temps réel ?</legend>
+					<div class="form-control">
+						<input type="radio" id="collab-yes" name="collab" value="Oui">
+						<label for="collab-yes">Oui, j’aime partager mon code</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="collab-no" name="collab" value="Non">
+						<label for="collab-no">Non, je préfère travailler seul</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Quel est votre besoin principal ?</legend>
+					<div class="form-control">
+						<input type="radio" id="debug" name="need" value="Debugging">
+						<label for="debug">Outils de débogage puissants</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="git" name="need" value="Git">
+						<label for="git">Intégration Git avancée</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="extensions" name="need" value="Extensions">
+						<label for="extensions">Extensions et personnalisation</label>
+					</div>
+				</fieldset>
+				<button type="submit" class="btn-submit">Trouver mon IDE</button>
+			</form>
+		</main>
+		<footer class="mini-footer">
+			<p>&copy; 2026 Espace Code.</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../style/style.css" rel="stylesheet">
+		<title>Espace Code - Quiz Outil</title>
+	</head>
+	<body class="page-quiz">
+		<header>
+			<nav class="navbar">
+				<div class="navbar-brand">
+					<a href="../index.html" class="logo">
+						<span class="logo-icon">&lt;</span>Code<span class="logo-icon">/&gt;</span>
+					</a>
+				</div>
+				<ul class="nav-links">
+					<li><a href="../index.html">Accueil</a></li>
+					<li><a href="../langages.html">Langages</a></li>
+					<li><a href="../outils.html">Outils</a></li>
+					<li><a href="../quiz.html">Quiz</a></li>
+					<li><a href="../Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="hero">
+			<h2>Quel outil de développement vous convient ?</h2>
+			<p>Choisissez l’outil le plus adapté à votre façon de coder.</p>
+		</section>
+		<main class="content-wrapper">
+			<form class="quiz-form" action="#" method="get">
+				<fieldset>
+					<legend>Quel est votre environnement de travail ?</legend>
+					<div class="form-control">
+						<input type="radio" id="simple-tool" name="workplace" value="Simple">
+						<label for="simple-tool">J’aime la simplicité</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="avancé" name="workplace" value="Avancé">
+						<label for="avancé">Je préfère des fonctionnalités avancées</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="collab" name="workplace" value="Collaboration">
+						<label for="collab">Je travaille en équipe</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Quel type de projet réalisez-vous le plus souvent ?</legend>
+					<div class="form-control">
+						<input type="checkbox" id="web-dev" name="project-type" value="Web">
+						<label for="web-dev">Projets web</label>
+					</div>
+					<div class="form-control">
+						<input type="checkbox" id="script" name="project-type" value="Script">
+						<label for="script">Automatisation / scripts</label>
+					</div>
+					<div class="form-control">
+						<input type="checkbox" id="desktop-app" name="project-type" value="Bureau">
+						<label for="desktop-app">Applications de bureau</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Quel est votre niveau d’expérience ?</legend>
+					<div class="form-control">
+						<input type="radio" id="beginner" name="experience" value="Débutant">
+						<label for="beginner">Débutant</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="comfortable" name="experience" value="Intermédiaire">
+						<label for="comfortable">Intermédiaire</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="expert" name="experience" value="Expert">
+						<label for="expert">Expert</label>
+					</div>
+				</fieldset>
+				<button type="submit" class="btn-submit">Découvrir mon outil</button>
+			</form>
+		</main>
+		<footer class="mini-footer">
+			<p>&copy; 2026 Espace Code.</p>
+		</footer>
+	</body>
+</html>

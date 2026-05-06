@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='fr'>
+	<head>
+		<meta charset='UTF-8'>
+		<link href="style/style.css" rel="stylesheet">
+		<title>Espace Code - Contact</title>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<div class="navbar-brand">
+					<a href="index.html" class="logo">
+						<span class="logo-icon">&lt;</span>Code<span class="logo-icon">/&gt;</span>
+					</a>
+				</div>
+				<ul class="nav-links">
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="langages.html">Langages</a></li>
+					<li><a href="outils.html">Outils</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="hero">
+			<h2>Nous contacter</h2>
+			<p>Une question, une suggestion ou un projet ? Notre équipe est là pour vous répondre rapidement.</p>
+		</section>
+		<main class="content-wrapper contact-page">
+			<section class="contact-overview">
+				<div class="contact-card">
+					<h3>Adresse</h3>
+					<p>123 Rue du Code, France</p>
+				</div>
+				<div class="contact-card">
+					<h3>Email</h3>
+					<p>hello@espacecode.fr</p>
+				</div>
+				<div class="contact-card">
+					<h3>Support</h3>
+					<p>Réponse sous 7 jours ouvrés.</p>
+				</div>
+			</section>
+			<section class="contact-section">
+				<div class="contact-info">
+					<h3>Parlez-nous de votre projet</h3>
+					<p>Remplissez le formulaire et nous reviendrons vers vous avec une réponse claire et utile.</p>
+					<ul class="contact-list">
+						<li><strong>Service client :</strong> hello@espacecode.fr</li>
+						<li><strong>Téléphone :</strong> +33 1 23 45 67 89</li>
+						<li><strong>Disponibilité :</strong> Lun-Ven, 9h - 18h</li>
+					</ul>
+				</div>
+				<form class="contact-form" action="#" method="post">
+					<div class="form-group">
+						<label for="name">Nom complet</label>
+						<input type="text" id="name" name="name" placeholder="Votre nom" required>
+					</div>
+					<div class="form-group">
+						<label for="email">Adresse email</label>
+						<input type="email" id="email" name="email" placeholder="votre@exemple.com" required>
+					</div>
+					<div class="form-group">
+						<label for="subject">Sujet</label>
+						<select id="subject" name="subject" required>
+							<option value="">Sélectionnez un sujet</option>
+							<option value="question">Question</option>
+							<option value="partenariat">Partenariat</option>
+							<option value="feedback">Retour d’expérience</option>
+							<option value="autre">Autre</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea id="message" name="message" placeholder="Écrivez votre message ici..." required></textarea>
+					</div>
+					<button type="submit" class="btn-submit">Envoyer le message</button>
+				</form>
+			</section>
+		</main>
+		<footer class="mini-footer">
+            <p>&copy; 2026 Espace Code.</p>
+        </footer>
+	</body>
+</html>

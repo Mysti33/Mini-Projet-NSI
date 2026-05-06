@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../style/style.css" rel="stylesheet">
+		<title>Espace Code - Quiz Domaine</title>
+	</head>
+	<body class="page-quiz">
+		<header>
+			<nav class="navbar">
+				<div class="navbar-brand">
+					<a href="../index.html" class="logo">
+						<span class="logo-icon">&lt;</span>Code<span class="logo-icon">/&gt;</span>
+					</a>
+				</div>
+				<ul class="nav-links">
+					<li><a href="../index.html">Accueil</a></li>
+					<li><a href="../langages.html">Langages</a></li>
+					<li><a href="../outils.html">Outils</a></li>
+					<li><a href="../quiz.html">Quiz</a></li>
+					<li><a href="../Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="hero">
+			<h2>Quel domaine du code est fait pour vous ?</h2>
+			<p>Répondez pour trouver le domaine qui correspond le mieux à votre style.</p>
+		</section>
+		<main class="content-wrapper">
+			<form class="quiz-form" action="#" method="get">
+				<fieldset>
+					<legend>Préférez-vous créer ou analyser ?</legend>
+					<div class="form-control">
+						<input type="radio" id="create" name="preference" value="Créer">
+						<label for="create">Créer des projets concrets</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="analyze" name="preference" value="Analyser">
+						<label for="analyze">Analyser des données et résoudre des problèmes</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Quel univers vous inspire le plus ?</legend>
+					<div class="form-control">
+						<input type="radio" id="web" name="universe" value="Web">
+						<label for="web">Le web et les interfaces</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="data" name="universe" value="Données">
+						<label for="data">La data et l’intelligence artificielle</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="system" name="universe" value="Système">
+						<label for="system">Les systèmes et l’optimisation</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Quel rythme de travail vous convient ?</legend>
+					<div class="form-control">
+						<input type="radio" id="rapide" name="pace" value="Rapide">
+						<label for="rapide">Des projets courts et rapides</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="long" name="pace" value="Long">
+						<label for="long">Des projets plus grands et profonds</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="mixte" name="pace" value="Mixte">
+						<label for="mixte">Un mélange des deux</label>
+					</div>
+				</fieldset>
+				<button type="submit" class="btn-submit">Découvrir mon domaine</button>
+			</form>
+		</main>
+		<footer class="mini-footer">
+			<p>&copy; 2026 Espace Code.</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang='fr'>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../style/style.css" rel="stylesheet">
+		<title>Espace Code - Quiz IDE débutant</title>
+	</head>
+	<body class="page-quiz">
+		<header>
+			<nav class="navbar">
+				<div class="navbar-brand">
+					<a href="../index.html" class="logo">
+						<span class="logo-icon">&lt;</span>Code<span class="logo-icon">/&gt;</span>
+					</a>
+				</div>
+				<ul class="nav-links">
+					<li><a href="../index.html">Accueil</a></li>
+					<li><a href="../langages.html">Langages</a></li>
+					<li><a href="../outils.html">Outils</a></li>
+					<li><a href="../quiz.html">Quiz</a></li>
+					<li><a href="../Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="hero">
+			<h2>Quiz - IDE pour débutants</h2>
+			<p>Trouvez l’IDE le plus simple pour bien démarrer vos premiers projets.</p>
+		</section>
+		<main class="content-wrapper">
+			<form class="quiz-form" action="#" method="get">
+				<fieldset>
+					<legend>Quel est votre niveau en informatique ?</legend>
+					<div class="form-control">
+						<input type="radio" id="never" name="level" value="Jamais codé">
+						<label for="never">Je n’ai jamais codé</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="some" name="level" value="Quelques notions">
+						<label for="some">J’ai quelques notions</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Préférez-vous une interface minimale ?</legend>
+					<div class="form-control">
+						<input type="radio" id="yes" name="ui" value="Oui">
+						<label for="yes">Oui, je veux quelque chose de simple</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="no" name="ui" value="Non">
+						<label for="no">Non, je veux plus de fonctionnalités</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Est-ce que vous appréciez les tutoriels intégrés ?</legend>
+					<div class="form-control">
+						<input type="radio" id="tutorial-yes" name="tutorial" value="Oui">
+						<label for="tutorial-yes">Oui</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="tutorial-no" name="tutorial" value="Non">
+						<label for="tutorial-no">Non</label>
+					</div>
+				</fieldset>
+				<button type="submit" class="btn-submit">Choisir mon IDE</button>
+			</form>
+		</main>
+		<footer class="mini-footer">
+			<p>&copy; 2026 Espace Code.</p>
+		</footer>
+	</body>
+</html>

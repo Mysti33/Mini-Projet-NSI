@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../style/style.css" rel="stylesheet">
+		<title>Espace Code - Quiz Langage</title>
+	</head>
+	<body class="page-quiz">
+		<header>
+			<nav class="navbar">
+				<div class="navbar-brand">
+					<a href="../index.html" class="logo">
+						<span class="logo-icon">&lt;</span>Code<span class="logo-icon">/&gt;</span>
+					</a>
+				</div>
+				<ul class="nav-links">
+					<li><a href="../index.html">Accueil</a></li>
+					<li><a href="../langages.html">Langages</a></li>
+					<li><a href="../outils.html">Outils</a></li>
+					<li><a href="../quiz.html">Quiz</a></li>
+					<li><a href="../Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="hero">
+			<h2>Quel langage est fait pour vous ?</h2>
+			<p>Répondez à ce quiz pour trouver le langage qui correspond le mieux à vos objectifs.</p>
+		</section>
+		<main class="content-wrapper">
+			<form class="quiz-form" action="#" method="get">
+				<fieldset>
+					<legend>Quel type de projet souhaitez-vous créer ?</legend>
+					<div class="form-control">
+						<input type="radio" id="site" name="project" value="Site Web">
+						<label for="site">Site web interactif</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="data" name="project" value="Analyse de données">
+						<label for="data">Analyse de données</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="jeu" name="project" value="Jeu">
+						<label for="jeu">Jeu ou application graphique</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Quel environnement préférez-vous ?</legend>
+					<div class="form-control">
+						<input type="checkbox" id="web" name="environment" value="Web">
+						<label for="web">Développement web</label>
+					</div>
+					<div class="form-control">
+						<input type="checkbox" id="desktop" name="environment" value="Bureau">
+						<label for="desktop">Applications de bureau</label>
+					</div>
+					<div class="form-control">
+						<input type="checkbox" id="mobile" name="environment" value="Mobile">
+						<label for="mobile">Applications mobiles</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Quel est votre niveau de syntaxe préféré ?</legend>
+					<div class="form-control">
+						<input type="radio" id="simple" name="syntax" value="Simple">
+						<label for="simple">Syntaxe simple et lisible</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="rapide" name="syntax" value="Rapide">
+						<label for="rapide">Performances et contrôle</label>
+					</div>
+				</fieldset>
+				<button type="submit" class="btn-submit">Découvrir mon langage</button>
+			</form>
+		</main>
+		<footer class="mini-footer">
+			<p>&copy; 2026 Espace Code.</p>
+		</footer>
+	</body>
+</html>

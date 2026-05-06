@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../style/style.css" rel="stylesheet">
+		<title>Espace Code - Quiz Langage web</title>
+	</head>
+	<body class="page-quiz">
+		<header>
+			<nav class="navbar">
+				<div class="navbar-brand">
+					<a href="../index.html" class="logo">
+						<span class="logo-icon">&lt;</span>Code<span class="logo-icon">/&gt;</span>
+					</a>
+				</div>
+				<ul class="nav-links">
+					<li><a href="../index.html">Accueil</a></li>
+					<li><a href="../langages.html">Langages</a></li>
+					<li><a href="../outils.html">Outils</a></li>
+					<li><a href="../quiz.html">Quiz</a></li>
+					<li><a href="../Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="hero">
+			<h2>Quiz - Langage Web</h2>
+			<p>Découvrez le langage web qui correspond à votre style de création.</p>
+		</section>
+		<main class="content-wrapper">
+			<form class="quiz-form" action="#" method="get">
+				<fieldset>
+					<legend>Voulez-vous créer des pages statiques ou interactives ?</legend>
+					<div class="form-control">
+						<input type="radio" id="static" name="type" value="Statique">
+						<label for="static">Pages statiques</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="interactive" name="type" value="Interactive">
+						<label for="interactive">Pages interactives</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Préférez-vous un langage orienté design ou logique ?</legend>
+					<div class="form-control">
+						<input type="radio" id="design" name="style" value="Design">
+						<label for="design">Design et présentation</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="logic" name="style" value="Logique">
+						<label for="logic">Logique et comportement</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Quelle importance accordez-vous à la compatibilité mobile ?</legend>
+					<div class="form-control">
+						<input type="radio" id="mobile-important" name="compatibility" value="Important">
+						<label for="mobile-important">Très important</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="mobile-fine" name="compatibility" value="Correct">
+						<label for="mobile-fine">C’est secondaire</label>
+					</div>
+				</fieldset>
+				<button type="submit" class="btn-submit">Découvrir mon langage web</button>
+			</form>
+		</main>
+		<footer class="mini-footer">
+			<p>&copy; 2026 Espace Code.</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang='fr'>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../style/style.css" rel="stylesheet">
+		<title>Espace Code - Quiz IDE</title>
+	</head>
+	<body class="page-quiz">
+		<header>
+			<nav class="navbar">
+				<div class="navbar-brand">
+					<a href="../index.html" class="logo">
+						<span class="logo-icon">&lt;</span>Code<span class="logo-icon">/&gt;</span>
+					</a>
+				</div>
+				<ul class="nav-links">
+					<li><a href="../index.html">Accueil</a></li>
+					<li><a href="../langages.html">Langages</a></li>
+					<li><a href="../outils.html">Outils</a></li>
+					<li><a href="../quiz.html">Quiz</a></li>
+					<li><a href="../Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="hero">
+			<h2>Quiz - IDE</h2>
+			<p>Découvrez quel IDE est adapté à vos besoins !</p>
+		</section>
+		
+		<main class="content-wrapper">
+			<form class="quiz-form" action="#" method="get">
+				<fieldset>
+					<legend>Quel est le langage de programmation que vous utilisez ?</legend>
+					<div class="form-control">
+						<input type="checkbox" id="html" name="language" value="HTML">
+						<label for="html">HTML</label>
+					</div>
+					<div class="form-control">
+						<input type="checkbox" id="css" name="language" value="CSS">
+						<label for="css">CSS</label>
+					</div>
+					<div class="form-control">
+						<input type="checkbox" id="javascript" name="language" value="JavaScript">
+						<label for="javascript">JavaScript</label>
+					</div>
+					<div class="form-control">
+						<input type="checkbox" id="python" name="language" value="Python">
+						<label for="python">Python</label>
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<legend>Quelle plateforme utilisez-vous ?</legend>
+					<div class="form-control">
+						<input type="radio" id="pc" name="platform" value="PC">
+						<label for="pc">PC</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="mobile" name="platform" value="Mobile">
+						<label for="mobile">Mobile</label>
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<legend>Selon vous, quel est votre niveau en programmation ?</legend>
+					<div class="form-control">
+						<input type="radio" id="novice" name="level" value="Novice">
+						<label for="novice">Novice</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="intermediaire" name="level" value="Intermédiaire">
+						<label for="intermediaire">Intermédiaire</label>
+					</div>
+					<div class="form-control">
+						<input type="radio" id="pro" name="level" value="Pro">
+						<label for="pro">Pro</label>
+					</div>
+				</fieldset>
+
+				<button type="submit" class="btn-submit">Voir mon IDE</button>
+			</form>
+		</main>
+
+		
+		<footer class="mini-footer">
+            <p>&copy; 2026 Espace Code.</p>
+        </footer>
+	</body>
+</html>
